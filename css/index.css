@@ -1,4 +1,4 @@
-*{
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -46,4 +46,41 @@ img{
     margin-bottom: 20px;
     line-height: 1.5;
     color: #abb0b9;
+  } */
+
+
+/*  refactoring */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #d6e1f0;
+}
+img{
+  max-width: 100%;
+  border-radius: 1rem;
+  display: block;
+}
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    margin: 10rem auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.125rem auto;
+  }
+
+  p{
+    color: #686e89;
+    text-align: center;
   }
